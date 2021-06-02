@@ -102,13 +102,77 @@
       color: hsl(277, 64%, 61%);
     }
 
+    @media only screen and (min-width: 1440px)  {
+      .main {
+        margin: 14.5%;
+      }
+    }
+
+    @media only screen and (max-width: 375px)  {
+      .main {
+        position: relative;
+        margin: 15% 5%;
+        text-align: center;
+        padding-bottom: 5%;
+      }
+
+      img {
+        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+      }
+
+      .overlay {
+        border-radius: 5px;
+      }
+
+      .left {
+        float: none;
+        width: 95%;
+        margin: 5%;
+      }
+
+      .right {
+        float: none;
+      }
+
+      .container {
+        display: block;
+        margin-top: -1%;
+        margin-bottom: 5px;
+      }
+
+    .header {
+      font-size: 30px;
+    }
+
+    .header2 {
+      font-size: 18px;
+    }
+
+    .subheader {
+      font-size: 14px;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: -2%;
+      padding-bottom: 2%;
+    }
+
+    }
+
 
   </style>
 </head>
 <body>
   <div class="wrapper">
     <div class="main">
-    <div class="card">
+      <div class="right">
+        <img src="./images/image-header-desktop.jpg" alt="image">
+        <div class="overlay"></div>
+      </div>
       <div class="left">
         <div class="upper-container">
           <p class="header">Get <span class="spacial-word">insights</span>  that help your business grow.</p>
@@ -120,11 +184,6 @@
           <div class="item item3"> <p class="header2">12m+ </p>  <p class="subheader">queries</p> </div>
         </div>
       </div>
-      <div class="right">
-        <img src="./images/image-header-desktop.jpg" alt="image">
-        <div class="overlay"></div>
-      </div>
-    </div>
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
