@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body {
+      background-color: hsl(233, 47%, 7%);
+      color: white;
+    }
+
+    .main {
+      position: absolute;
+      top: 0; right: 0; bottom: 0; left: 0;
+      margin: 9.1%;
+      border-radius: 5px;
+      background-color: hsl(244, 38%, 16%);
+    }
+
+    .left {
+      float: left;
+      width: 50%;
+    }
+
+    .right {
+      float: right;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 10px 10px 10px;
+
+      grid-template-columns: 1fr 1fr 1fr;
+      <!-- grid-template-rows: 1fr 1fr 1fr; -->
+      grid-template-areas: 'item1 item2 item3'
+    }
+    .item {
+      background-color: brown;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="card">
+      <div class="left">
+        <div class="upper-container">
+          <p class="header1">Get insights that help your business grow.</p>
+          <p>the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+          </div>
+        <div class="container">
+          <div class="item item1"> <p class="header2">10k+ </p> <p>companies</p> </div>
+          <div class="item item2"> <p class="header2">314 </p> <p>templates</p> </div>
+          <div class="item item3"> <p class="header2">12m+ </p>  <p>queries</p> </div>
+        </div>
+      </div>
+      <div class="right">
+        <img src="./images/image-header-desktop.jpg" alt="hello theree">
+      </div>
+    </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  </div>
+</body>
+</html>
