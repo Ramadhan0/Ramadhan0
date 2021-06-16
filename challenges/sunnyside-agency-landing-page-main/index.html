@@ -12,37 +12,79 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
 
-    .header {
-      background-image: url("./images/desktop/image-header.jpg");
-      background-repeat: no-repeat;
-      background-size: 100%;
+    body {
+      font-family: 'fraunces';
+    }
+    header {
+      position: relative;
+    }
+    .nav-wrapper{
+      position: absolute;
+    }
+    .active {
+      background-color: white;
+      border-radius: 25px;
+    }
+    .header-text {
+      font-size: 80px;
+      margin-top: 8%;
+      color: white;
+      font-weight: 900;
     }
     .image {
       width: 100%;
       height: 100%;
     }
+    .transform {
+      margin: 20%;
+    }
+    .link {
+      color: black;
+    }
+    .link-transform-1 {
+      text-decoration-color: hsl(51, 100%, 49%);
+    }
+    .link-transform-2 {
+      text-decoration-color: hsl(7, 99%, 70%);
+    }
+    .holder {
+      position: relative;
+    }
+    .holder-text {
+    }
     .profile {
       width: 20%;
-      height: 30%;
+      height: 40%;
       border-radius: 50%;
+      margin-left: 40%;
     }
     .testimony {
       margin-top: 20%;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .profile {
+      width: 20%;
+      height: 25%;
+      border-radius: 50%;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container-fluid">
     <div class="row header p-0">
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sunnyside</a>
+      <img src="./images/desktop/image-header.jpg" class="p-0" alt="">
+      <div class="nav-wrapper p-0">
+      <nav class="navbar navbar-expand-lg navbar-light font-monospace mt-4">
+        <div class="container">
+          <a class="navbar-brand py-0 fs-2 fw-bold" href="#">Sunnyside</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
+          <div class="navbar-nav px-5 fs-4">
             <a class="nav-link" aria-current="page" href="#">About</a>
             <a class="nav-link" href="#">Services</a>
             <a class="nav-link" href="#">Projects</a>
@@ -50,58 +92,67 @@
           </div>
         </div>
       </nav>
-      <h1>We are creatives</h1>
+      <h1 class="text-center header-text">We are creatives</h1>
     </div>
+  </div>
     <div class="row">
-      <div class="col-6 p-0">
-        <h6>Transform your brand</h6>
-        <p>We are a full-service creative agency specializing in helping brands grow fast.
-        Engage your clients through compelling visuals that do most of the marketing for you.</p>
-        <a href="#">Learn more</a>
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+        <img src="./images/desktop/image-transform.jpg" class="image" alt="image">
 
       </div>
-      <div class="col-6 p-0">
-        <img src="./images/desktop/image-transform.jpg" class="image" alt="image">
+      <div class="col-lg-6 col-md-6 col-sm-12 order-sm-first p-0">
+        <div class="transform">
+          <p class="fs-2 fw-bold">Transform your brand</p>
+          <p class="fs-6">We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.</p>
+          <a href="#" class="fs-3 link link-transform-1">Learn more</a>
+        </div>
+
       </div>
     </div>
     <div class="row">
-      <div class="col-6 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
         <img src="./images/desktop/image-stand-out.jpg" class="image" alt="image">
       </div>
-      <div class="col-6 p-0">
-        <h6>Stand out to the right audience</h6>
-        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
-        <a href="#">Learn more</a>
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
+        <div class="transform">
+        <p class="fs-2 fw-bold">Stand out to the right audience</p>
+        <p class="fs-6">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <a href="#" class="fs-3 link link-transform-2">Learn more</a>
       </div>
     </div>
+    </div>
     <div class="row">
-      <div class="col-6 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0 ">
         <img src="./images/desktop/image-graphic-design.jpg" class="image" alt="image">
-        <h6>Graphic design</h6>
-        <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
-
+        <div class="holder-text">
+          <p class="fs-2">Graphic design</p>
+          <p class="fs-6">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
       </div>
-      <div class="col-6 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0 holder">
         <img src="./images/desktop/image-photography.jpg" class="image" alt="image">
-        <h6>Photography</h6>
-        <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        <div class=" holder-text">
+          <p class="fs-2">Photography</p>
+          <p class="fs-6">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
       </div>
     </div>
     <div class="row testimony">
-      <h6 class="align-items-center">Client testimonials</h6>
-      <div class="col-4 p-0">
+      <p class="start-50 fs-3 fw-bold">Client testimonials</p>
+      <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-emily.jpg" class="profile" alt="image">
         <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
         <h6>Emily R.</h6>
         <p>Marketing Director</p>
       </div>
-      <div class="col-4 p-0">
+      <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-thomas.jpg" class="profile" alt="image">
         <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
         <h6>Thomas S.</h6>
         <p>Chief Operating Officer</p>
       </div>
-      <div class="col-4 p-0">
+      <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-jennie.jpg" class="profile" alt="image">
         <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
         <h6>Jennie F.</h6>
@@ -109,17 +160,25 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-3 p-0">
-        <img src="./images/desktop/image-gallery-milkbottles.jpg" class="image" alt="image">
+      <div class="col-lg-6 col-md-6 col-sm-12 -0">
+        <div class="row">
+          <div class="col-6 p-0">
+            <img src="./images/desktop/image-gallery-milkbottles.jpg" class="image" alt="image">
+          </div>
+          <div class="col-6 p-0">
+            <img src="./images/desktop/image-gallery-orange.jpg" class="image" alt="image">
+          </div>
+        </div>
       </div>
-      <div class="col-3 p-0">
-        <img src="./images/desktop/image-gallery-orange.jpg" class="image" alt="image">
-      </div>
-      <div class="col-3 p-0">
-        <img src="./images/desktop/image-gallery-cone.jpg" class="image" alt="image">
-      </div>
-      <div class="col-3 p-0">
-        <img src="./images/desktop/image-gallery-sugarcubes.jpg" class="image" alt="image">
+      <div class="col-lg-6 col-md-6 col-sm-12 -0">
+        <div class="row">
+          <div class="col-6 p-0">
+            <img src="./images/desktop/image-gallery-cone.jpg" class="image" alt="image">
+          </div>
+          <div class="col-6 p-0">
+            <img src="./images/desktop/image-gallery-sugarcubes.jpg" class="image" alt="image">
+          </div>
+        </div>
       </div>
     </div>
     <div class="footer">
@@ -129,12 +188,14 @@
       Contact
     </div>
 
-  </div>
+
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
 </body>
 </html>
