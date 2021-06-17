@@ -51,22 +51,41 @@
       position: relative;
     }
     .holder-text {
+      background-color: aquamarine;
     }
     .profile {
-      width: 20%;
-      height: 40%;
       border-radius: 50%;
       margin-left: 40%;
+      background-color: azure;
     }
     .testimony {
       margin-top: 20%;
     }
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (min-width: 1400px) {
       .profile {
       width: 20%;
+      height: 40%;
+      }
+    }
+
+    @media only screen and (max-width: 1400px) {
+      .profile {
+      width: 25%;
+      height: 30%;
+      }
+    }
+
+    @media only screen and (max-width: 780px) {
+      .profile {
+      width: 20%;
+      height: 20%;
+      }
+    }
+    @media only screen and (max-width: 430px) {
+      .profile {
+      width: 15%;
       height: 25%;
-      border-radius: 50%;
       }
     }
   </style>
@@ -143,19 +162,19 @@
       <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-emily.jpg" class="profile" alt="image">
         <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
-        <h6>Emily R.</h6>
+        <p>Emily R.</p>
         <p>Marketing Director</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-thomas.jpg" class="profile" alt="image">
         <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
-        <h6>Thomas S.</h6>
+        <p class="align-text-center">Thomas S.</p>
         <p>Chief Operating Officer</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-12 p-0">
         <img src="./images/image-jennie.jpg" class="profile" alt="image">
         <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
-        <h6>Jennie F.</h6>
+        <p>Jennie F.</p>
         <p>Business Owner</p>
       </div>
     </div>
