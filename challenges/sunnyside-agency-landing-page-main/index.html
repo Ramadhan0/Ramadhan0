@@ -31,6 +31,10 @@
       color: white;
       font-weight: 900;
     }
+    .svg-header {
+      margin-top: 3%;
+      margin-left: 49%;
+    }
     .image {
       width: 100%;
       height: 100%;
@@ -89,10 +93,18 @@
       }
     }
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1300px) {
+      .header-text {
+        font-size: 70px;
+        margin-top: 3%;
+        font-weight: 700;
+      }
+      .svg-header {
+        margin-top: 2%;
+      }
       .profile {
-      width: 25%;
-      height: 30%;
+        width: 25%;
+        height: 30%;
       }
       .holder {
         margin-left: 20%;
@@ -106,9 +118,18 @@
     }
 
     @media only screen and (max-width: 780px) {
+      .header-text {
+        font-size: 55px;
+        margin-top: 2%;
+      }
+      .svg-header {
+        margin-top: 1%;
+        height: 80px;
+        margin-left: 48%;
+      }
       .profile {
-      width: 20%;
-      height: 20%;
+        width: 20%;
+        height: 20%;
       }
       .holder {
         margin-top: -40%;
@@ -122,6 +143,19 @@
       }
     }
     @media only screen and (max-width: 430px) {
+      .header-image {
+        height: 300px;
+      }
+      .header-text {
+        font-size: 40px;
+        margin-top: 0%;
+      }
+      .svg-header {
+        margin-top: -2%;
+        height: 48px;
+        width: 20px;
+        margin-left: 47.4%;
+      }
       .profile {
       width: 15%;
       height: 25%;
@@ -143,6 +177,19 @@
       }
     }
     @media only screen and (max-width: 330px) {
+      .header-image {
+        height: 220px;
+      }
+      .header-text {
+        font-size: 20px;
+        margin-top: -4%;
+      }
+      .svg-header {
+        margin-top: -2%;
+        height: 40px;
+        width: 15px;
+        margin-left: 47.4%;
+      }
       .profile {
       width: 20%;
       height: 25%;
@@ -161,7 +208,7 @@
 <body>
   <div class="container-fluid">
     <div class="row header p-0">
-      <img src="./images/desktop/image-header.jpg" class="p-0" alt="">
+      <img src="./images/desktop/image-header.jpg" class="p-0 header-image" alt="">
       <div class="nav-wrapper p-0">
       <nav class="navbar navbar-expand-lg navbar-light font-monospace mt-4">
         <div class="container">
@@ -180,7 +227,8 @@
         </div>
       </nav>
       <h1 class="text-center header-text">We are creatives</h1>
-      <svg class="text-center" width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
+      <img class="svg-header" src="./images/icon-arrow-down.svg" alt="svg">
+      <!-- <svg class="svg-header" width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg> -->
     </div>
   </div>
     <div class="row">
