@@ -1,15 +1,14 @@
 
 const ctx = document.getElementById("chart").getContext('2d');
 const myChart = new Chart(ctx, {
-    type: 'bar',
+    type: 'line',
     data: {
-        labels: ["rice", "yam", "tomato", "potato",
-            "beans", "maize", "oil"],
+        labels: ["May 13", "May 14", "May 14", "May 15", "May 16", "May 16", "May 17", "May 18", "May 18"],
         datasets: [{
-            label: 'food Items',
-            backgroundColor: 'rgba(161, 198, 247, 1)',
-            borderColor: 'rgb(47, 128, 237)',
-            data: [300, 400, 200, 500, 800, 900, 200],
+            label: 'price',
+            backgroundColor: '#0b1b1b',
+            borderColor: '#6c4e60',
+            data: [1000, 2000, 3000, 4000, 3000, 4000, 20000, 3500, 3900],
         }]
     },
     options: {
