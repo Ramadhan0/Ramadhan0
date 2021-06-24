@@ -36,18 +36,54 @@
     .card-position {
       margin-left: 3%;
     }
-    @media (min-width: 1400px) {
+    .investment {
+      color: #355457;
+      margin-top: -5%;
+    }
+    .bottom-card-position {
+      margin-left: 2%;
+    }
+    .bottom {
+      width: 32%;
+    }
+    @media (max-width: 2560px) {
+      canvas {
+        height: 273px !important;
+      }
     .side-b {
       width: 64.4%;
     }
-    .chart {
-      height: 200px;
+    .investment {
+      color: #355457;
+      margin-top: -5%;
     }
+    }
+    @media (max-width: 1300px) {
+      .side-b{
+        width: 64.4%;
+      }
+    }
+    @media (max-width: 1024px) {
+      canvas {
+        height: 293px !important;
+      }
+      .side-b{
+        width: 64.4%;
+      }
+    }
+    @media (max-width: 770px) {
+      canvas {
+        width: 50% !important;
+        height: 293px !important;
+      }
+      .side-b{
+        width: 64.4%;
+      }
     }
   </style>
 </head>
 <body>
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <div class="row card-color">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -128,25 +164,25 @@
       </div>
       <div class="col-7 side-b">
         <div class="row">
-          <div class="col card-color w-30">
-            <p>$392,388,292</p>
-            <p>Total Assets</p>
+          <div class="col card-color">
+            <p class="fs-4 mt-2">$392,388,292</p>
+            <p class="investment">Total Assets</p>
           </div>
           <div class="col card-color card-position w-30">
-            <p>$22,000</p>
-            <p>Total Invested</p>
+            <p class="fs-4 mt-2">$22,000</p>
+            <p class="investment">Total Invested</p>
           </div>
           <div class="col card-color card-position w-30">
-            <p>$25,433</p>
-            <p>Total return</p>
+            <p class="fs-4 mt-2">$25,433</p>
+            <p class="investment">Total return</p>
           </div>
         </div>
         <div class="row card-color mt-3">
           <div class="col-6">
-            <p>Bitcoin Chat</p>
+            <p class="mt-3 chart-header">Bitcoin Chat</p>
           </div>
           <div class="col-6">
-            <p class="text-end">1d 7d 1m 3m 1y All</p>
+            <p class="text-end mt-3 chart-header">1d 7d 1m 3m 1y All</p>
           </div>
         </div>
         <div class="row card-color mt-3">
@@ -156,15 +192,15 @@
     </div>
     <div class="row">
       <div class="col-6">
-        <p>wallets</p>
+        <p class="mt-2">wallets</p>
       </div>
       <div class="col-6">
-        <p class="text-end">See More</p>
+        <p class="text-end mt-2">See More</p>
       </div>
     </div>
     <div class="row">
-      <div class="col-4 card-color">
-        <div class="row ">
+      <div class="col-4 bottom card-color">
+        <div class="row mt-2">
           <div class="col-6">
             <p>btc</p>
           </div>
@@ -181,9 +217,9 @@
           </div>
         </div>
       </div>
-      <div class="col-4 card-color">
+      <div class="col-4 bottom card-color bottom-card-position">
 
-        <div class="row">
+        <div class="row mt-2">
           <div class="col-6">
             <p>btc</p>
           </div>
@@ -200,9 +236,9 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-4 bottom card-color bottom-card-position">
 
-        <div class="row">
+        <div class="row mt-2">
           <div class="col-6">
             <p>btc</p>
           </div>
