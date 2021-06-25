@@ -18,6 +18,12 @@
       border-radius: 5px;
       box-shadow:#062e2e;
     }
+    a {
+      color: white !important;
+    }
+    .navbar-toggler {
+      background-color: white !important;
+    }
     .profile {
       margin-right: 10%;
     }
@@ -46,44 +52,102 @@
     .bottom {
       width: 32%;
     }
-    @media (max-width: 2560px) {
+    @media only screen and (max-width: 2560px) {
       canvas {
-        height: 273px !important;
+        height: 280px !important;
       }
-    .side-b {
-      width: 64.4%;
-    }
+      .side-b{
+        width: 64.4%;
+      }
     .investment {
       color: #355457;
       margin-top: -5%;
     }
     }
-    @media (max-width: 1300px) {
-      .side-b{
-        width: 64.4%;
-      }
-    }
-    @media (max-width: 1024px) {
+    @media only screen and (max-width: 1024px) {
       canvas {
-        height: 293px !important;
+        height: 300px !important;
       }
       .side-b{
         width: 64.4%;
       }
     }
-    @media (max-width: 770px) {
+    @media only screen and (max-width: 770px) {
       canvas {
-        width: 50% !important;
-        height: 293px !important;
+        height: 210.5px !important;
       }
-      .side-b{
-        width: 64.4%;
+      .side-b {
+        margin-left: 3%;
+        width: 63%;
+      }
+      .fs-1 {
+        font-size: 18px !important;
+      }
+      .fs-4 {
+        font-size: 14px !important;
+      }
+      p {
+        font-size: 10px !important;
+      }
+    }
+    @media only screen and (max-width: 430px) {
+      .container {
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      canvas {
+        width: 400px !important;
+        height: 200px !important;
+      }
+      .side-a {
+        margin-top: 3%;
+      }
+      .side-b {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3%;
+      }
+    }
+    @media only screen and (max-width: 330px) {
+      .container {
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      p {
+        margin-top: -9%;
+      }
+      .card {
+        width: 100% !important;
+      }
+      .fs-4 {
+        font-size: 10px !important;
+      }
+      canvas {
+        width: 250px !important;
+        height: 120px !important;
+      }
+      .side-a {
+        margin-top: 3%;
+      }
+      .side-b {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3%;
+      }
+      .bottom-card-position {
+        margin-left: 0;
+        margin-top: 5%;
+      }
+      .bottom {
+        width: 100%;
       }
     }
   </style>
 </head>
 <body>
-  <div class="container-fluid p-0">
+  <div class="container-fluid">
     <div class="row card-color">
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -107,16 +171,16 @@
               <div class="form-check form-switch mt-1">
                 <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
               </div>
-              <img src="./images/IMG-20170312-WA0000.jpg" class="profile-image" alt="image">
+              <img src="./images/IMG-20170312-WA0000.jpg" class="profile-image mt-1" alt="image">
               <p class="profile-name">Ramadhan</p>
             </div>
           </div>
         </div>
       </nav>
     </div>
-    <div class=" row container m-5">
+    <div class=" row container m-lg-5 m-md-3">
     <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4 col-md-4 col-sm-12 side-a">
         <div class="row card-color">
           <p class="text-center mt-3">Portfolio Total</p>
           <p class="text-center fs-1">$52,785</p>
@@ -154,25 +218,25 @@
           </div>
         </div>
         <div class="row mt-3 card-color">
-          <p>News</p>
+          <p class="mt-md-2">News</p>
           <p>Elon Musk asks Dogecoin creator to Help Fight Cryoto Sca  Bots on Twitter</p>
           <div class="row">
-            <div class="col-6"><p>By Ramadhan N,</p></div>
-            <div class="col-6 text-end"><p>3 Hours Ago</p></div>
+            <div class="col-6 fst-italic"><p>By Ramadhan N,</p></div>
+            <div class="col-6 text-end fst-italic"><p>3 Hours Ago</p></div>
           </div>
         </div>
       </div>
-      <div class="col-7 side-b">
+      <div class="col-lg-7 col-md-7 col-sm-12 side-b">
         <div class="row">
-          <div class="col card-color">
+          <div class="col card-color card">
             <p class="fs-4 mt-2">$392,388,292</p>
             <p class="investment">Total Assets</p>
           </div>
-          <div class="col card-color card-position w-30">
+          <div class="col card-color card-position w-30 card">
             <p class="fs-4 mt-2">$22,000</p>
             <p class="investment">Total Invested</p>
           </div>
-          <div class="col card-color card-position w-30">
+          <div class="col card-color card-position w-30 card">
             <p class="fs-4 mt-2">$25,433</p>
             <p class="investment">Total return</p>
           </div>
