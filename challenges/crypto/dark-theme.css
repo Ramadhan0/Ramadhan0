@@ -1,0 +1,22 @@
+body {
+    color: white !important;
+    background-color: #0a1819;
+}
+
+.card-color {
+    background-color: #0f2121;
+    box-shadow: #062e2e;
+}
+
+.investment {
+    color: #355457;
+}
+
+a {
+    color: white !important;
+}
+
+.navbar-toggler {
+    background-color: white !important;
+}
+

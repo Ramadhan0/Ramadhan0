@@ -1,0 +1,137 @@
+
+.card-color {
+    border-radius: 5px;
+}
+
+
+.profile {
+    margin-right: 10%;
+}
+
+.profile-image {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin-left: 8%;
+}
+
+.profile-name {
+    margin-left: 5%;
+}
+
+.side-b {
+    margin-left: 20px;
+}
+
+.card-position {
+    margin-left: 3%;
+}
+
+.investment {
+    margin-top: -5%;
+}
+
+.bottom-card-position {
+    margin-left: 2%;
+}
+
+.bottom {
+    width: 32%;
+}
+
+
+@media only screen and (max-width: 2560px) {
+    canvas {
+        height: 280px !important;
+    }
+    .side-b {
+        width: 64.4%;
+    }
+    .investment {
+        margin-top: -5%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    canvas {
+        height: 300px !important;
+    }
+    .side-b {
+        width: 64.4%;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    canvas {
+        height: 210.5px !important;
+    }
+    .side-b {
+        margin-left: 3%;
+        width: 63%;
+    }
+    .fs-1 {
+        font-size: 18px !important;
+    }
+    .fs-4 {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    canvas {
+        width: 400px !important;
+        height: 200px !important;
+    }
+    .side-a {
+        margin-top: 3%;
+    }
+    .side-b {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .container {
+        margin-left: 1%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    p {
+        margin-top: -9%;
+    }
+    .card {
+        width: 100% !important;
+    }
+    .fs-4 {
+        font-size: 10px !important;
+    }
+    canvas {
+        width: 250px !important;
+        height: 120px !important;
+    }
+    .side-a {
+        margin-top: 3%;
+    }
+    .side-b {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3%;
+    }
+    .bottom-card-position {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    .bottom {
+        width: 100%;
+    }
+}
