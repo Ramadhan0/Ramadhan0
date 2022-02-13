@@ -1,22 +1,22 @@
 {
-  "name": "frontend-mentor",
-  "version": "1.0.0",
+  "name": "portfolio",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d challenges"
+    "deploy": "gh-pages -d portfolio"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ramadhan0/Frontend-mentor.git"
+    "url": "git+https://github.com/Ramadhan0/portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ramadhan0/Frontend-mentor/issues"
+    "url": "https://github.com/Ramadhan0/portfolio/issues"
   },
-  "homepage": "https://github.com/Ramadhan0/Frontend-mentor",
+  "homepage": "https://github.com/Ramadhan0/portfolio",
   "dependencies": {
     "chart.js": "^3.3.2",
     "gh-pages": "^3.2.0"
