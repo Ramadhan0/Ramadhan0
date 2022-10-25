@@ -1,7 +1,7 @@
 # Hi there, I am Ramadhan
 
-<img align="left" width="42%" src="https://ramadhan0-github-readme-stats.vercel.app/api?username=Ramadhan0&show_icons=true&theme=tokyonight" />
-<img align="left" width="34%" src="https://ramadhan0-github-readme-stats.vercel.app/api/top-langs?username=Ramadhan0&show_icons=true&locale=en&layout=compact" />
+<img align="left" width="51.8%" src="https://ramadhan0-github-readme-stats.vercel.app/api?username=Ramadhan0&show_icons=true&theme=tokyonight" />
+<img align="left" width="43.2%" src="https://ramadhan0-github-readme-stats.vercel.app/api/top-langs?username=Ramadhan0&show_icons=true&locale=en&layout=compact" />
 
 &nbsp;
 
