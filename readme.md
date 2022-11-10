@@ -1,23 +1,7 @@
-### **I am a full stack developer**
+# Hi there, I am Ramadhan
+![Ramadhan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Ramadhan0&show_icons=true&theme=tokyonight)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ramadhan0&layout=compact)]
 
-#### <ins>Languages</ins>
- * Javascript   
- * Typescript   
- * Python   
-
-#### <ins>skills</ins>
-
-##### Reactjs   
-* Bootstrap5   
-* Tailwindcss   
-
-##### Nodejs
-* Express  
-* Sequelize   
-* PostgreSQL   
-* Mongo
-
-##### Flask
 
 [codersrank profile](https://profile.codersrank.io/user/ramadhan0)
 
