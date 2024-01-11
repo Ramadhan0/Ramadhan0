@@ -1,6 +1,6 @@
 # Hi, I'm Ramadhan Nsengiyumva,
 
-A highly skilled and passionate full stack engineer with over 4 years of experience in the field. I have a strong background in developing robust and scalable web applications from concept to completion. My expertise lies in both front-end and back-end technologies, allowing me to seamlessly integrate and optimize the entire software stack.
+A highly skilled and passionate full stack engineer with over 4+ years of experience in the field. I have a strong background in developing robust and scalable web applications from concept to completion. My expertise lies in both front-end and back-end technologies, allowing me to seamlessly integrate and optimize the entire software stack.
 
 #
 
