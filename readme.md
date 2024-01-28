@@ -1,11 +1,7 @@
 # Hi, I'm Ramadhan Nsengiyumva,
 
-A highly skilled and passionate full stack engineer with over 4+ years of experience in the field. I have a strong background in developing robust and scalable web applications from concept to completion. My expertise lies in both front-end and back-end technologies, allowing me to seamlessly integrate and optimize the entire software stack.
+A highly skilled and passionate full-stack engineer with over 4+ years of experience in the field. I have a strong background in developing robust and scalable web applications from concept to completion. My expertise lies in front-end and back-end technologies, allowing me to integrate and optimize the entire software stack seamlessly.
 
-#
-
-<img align="left" width="51.8%" src="https://ramadhan0-github-readme-stats.vercel.app/api?username=Ramadhan0&show_icons=true&theme=tokyonight" />
-<img align="left" width="43.2%" src="https://ramadhan0-github-readme-stats.vercel.app/api/top-langs?username=Ramadhan0&show_icons=true&locale=en&layout=compact" />
 
 &nbsp;
 
